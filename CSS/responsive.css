@@ -1,0 +1,2772 @@
+/* ====================== media query: 1200px ============================= */
+
+@media screen and (max-width: 1200px) {
+
+    /* ========================= common styling ======================= */
+
+    body {
+        overflow-x: hidden !important;
+    }
+
+    .container {
+        max-width: 1024px;
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 250px;
+    }
+
+    /* ========================== navbar ========================== */
+
+    .navbar {
+        width: 100%;
+    }
+
+    .navbar .container {
+        width: 100%;
+    }
+
+    .navbar .container .nav-menu .logo {
+        width: 10%;
+        height: 85%;
+    }
+
+    .navbar .container .nav-menu .logo img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .navbar .container .nav-menu ul li {
+        width: 140px;
+        height: 50px;
+    }
+
+    .navbar .container .nav-menu ul li a {
+        font-size: 16px;
+    }
+
+    .navbar .container .nav-menu-1i {
+        padding: 16px;
+    }
+
+    .navbar .container .nav-menu-1 a {
+        font-size: 16px;
+        width: 140px;
+        height: 50px;
+    }
+    .ico{
+        display: none !important;
+    }
+
+    /* ======================== banner ========================= */
+
+    .banner {
+        width: 100%;
+        height: 800px;
+        margin: 1% 0;
+        background-size: 98%;
+    }
+
+    .banner .container {
+        width: 100%;
+    }
+
+    .banner .container .row .banner-head {
+        font-size: 30px;
+        top: 0;
+
+    }
+
+    .banner .container .row .banner-text h2 {
+        font-size: 250px !important;
+    }
+
+    .banner .container .row .banner-text .leaf {
+        width: 31%;
+        height: 67% !important;
+        left: 37% !important;
+    }
+
+    .banner .container .row .desc {
+        left: 18%;
+        top: 55%;
+    }
+
+    .banner .container .row .plant-count {
+        width: 25%;
+        height: 25%;
+    }
+
+    .banner .container .row .plant-count .plant-figure {
+        padding: 5%;
+    }
+
+    .banner .container .row .plant-count .plant-figure .head {
+        font-size: 20px;
+    }
+
+    .banner .container .row .plant-count .plant-figure .plant-desc {
+        font-size: 14px;
+    }
+
+    .banner .container .row .plant-count .plant-type {
+        padding: 5%;
+    }
+
+    .banner .container .row .plant-count .plant-type figure {
+        width: 75%;
+        height: 40%;
+    }
+
+    .banner .container .row .plant-count .plant-type figure img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .arrow-down {
+        top: 74%;
+        left: 90%;
+        padding: 4px 12px;
+    }
+
+    .banner .container .shop-plants {
+        top: 98%;
+        left: 71%;
+        border-radius: 25px;
+        width: 29%;
+        height: 17%;
+    }
+
+    /* ========================== for people ========================= */
+
+    .for-people {
+        height: 250px;
+    }
+
+    .for-people .container .row .heading h2 {
+        font-size: 36px;
+    }
+
+    .for-people .container .row .video-content video{
+        object-fit: cover !important;
+    }
+
+    .for-people .container .row .video-content i {
+        width: 5%;
+        height: 5%;
+        font-size: 12px;
+    }
+
+    .for-people .container .row .people-desc p {
+        font-size: 30px;
+    }
+
+    .for-people .container .row .people-desc span.image img {
+        width: 20%;
+        height: 100%;
+    }
+
+    /* ========================= plant gallery ========================== */
+
+    .plant-gallery {
+        height: 500px;
+    }
+
+    .plant-gallery .container #row-1 a {
+        font-size: 20px;
+    }
+
+    .plant-gallery .container #row-1 .see-all {
+        font-size: 20px;
+        border: 1px solid black;
+    }
+
+    .plant-gallery .container #row-2 .plant-card-layout {
+        height: 90%;
+    }
+
+    .plant-gallery .container #row-2 .plant-card-layout .plant-card .heading button {
+        width: 9.5%;
+        height: 50%;
+    }
+
+    .plant-gallery .container #row-2 .plant-card-layout .plant-card .plant-desc {
+        font-size: 14px;
+    }
+
+    .plant-gallery .container #row-2 .plant-card-layout .plant-card .button button {
+        padding-right: 34px;
+    }
+
+    /* ======================== new plants ======================= */
+
+    .new-plants {
+        height: 900px;
+    }
+
+    .new-plants .container .row .heading h2 {
+        font-size: 90px;
+    }
+
+    .new-plants-card-layout .swiper-slide .card-image {
+        height: 70% !important;
+    }
+
+    .new-plants-card-layout .swiper-slide .card-image .wishlist-btn i {
+        font-size: 16px !important;
+    }
+
+    .new-plants-card-layout .swiper-slide .card-content .card-desc h3 {
+        font-size: 24px !important;
+    }
+
+    .new-plants-card-layout .swiper-slide:hover {
+        .price {
+            transform: scale(1.3) !important;
+        }
+    }
+
+    .new-plants-card-layout .swiper-slide .card-content button {
+        padding: 14px 16px;
+        margin-right: 5px;
+    }
+
+    .swiper-pagination-bullet {
+        width: 24px;
+        height: 24px;
+    }
+
+    /* ========================= indoor ========================== */
+
+    .indoor {
+        height: 800px;
+    }
+
+    .indoor .container .row .heading h2 {
+        font-size: 100px;
+    }
+
+    .indoor .container .row .indoor-part-2 .indoor-collection-layout .indoor-card #card-name {
+        font-size: 50px;
+    }
+
+    .indoor .container .row .indoor-part-2 .indoor-collection-layout .indoor-card .card-content h3 {
+        font-size: 50px;
+    }
+
+    .indoor .container .row .indoor-part-2 .indoor-collection-layout .indoor-card .card-content p {
+        font-size: 14px;
+        letter-spacing: 1px;
+    }
+
+    .indoor .container .row .indoor-part-2 .indoor-collection-layout .indoor-card .button button {
+        font-size: 18px !important;
+        padding: 14px 16px !important;
+    }
+
+    .indoor .container .row .indoor-part-2 .indoor-collection-layout .indoor-card .card-content {
+        padding: 4%;
+    }
+
+    /* ======================== quality =========================*/
+
+    .quality {
+        height: 1000px;
+    }
+
+    .quality .container .row .heading h2 {
+        font-size: 70px;
+    }
+
+    .quality .container .row .heading p {
+        font-size: 16px;
+        padding: 0 10%;
+    }
+
+    .quality .container .row .quality-content #content-image {
+        width: 90%;
+        height: 70%;
+    }
+
+    .quality .container .row .quality-content .play-icon {
+        width: 6.6%;
+        height: 12%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .quality .container .row .quality-content .play-icon figure {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .quality .container .row .quality-content .play-icon img {
+        text-align: center !important;
+        width: 50% !important;
+    }
+
+    /* =========================== accordion ============================ */
+
+    .accordion {
+        height: 900px;
+    }
+
+    .accordion .container .row .accordion-wrapper .faq-content {
+        padding: 4% 2%;
+    }
+
+    .accordion .container .row .accordion-wrapper .faq-content .question h3 {
+        font-size: 36px;
+    }
+    .end .container .row-2{
+        margin-top: 103px;
+        background-color: white;
+        width: 100%;
+        width: 1380px;
+        height: 292px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        right: 170px;
+        border-radius: 30px;
+        row-gap: 40px;
+    }
+}
+
+
+/* ====================== media query: 1200px ============================= */
+
+@media screen and (max-width: 1024px) {
+
+    /* ========================= common styling ======================= */
+
+    body {
+        overflow-x: hidden !important;
+    }
+
+    .container {
+        max-width: 1024px !important;
+        width: 100% !important;
+        padding: 0px 40px;
+    }
+
+    h1 {
+        font-size: 220px;
+    }
+
+    /* ========================= navbar =========================*/
+
+    .navbar {
+        width: 100% !important;
+    }
+
+    .navbar .container {
+        width: 100% !important;
+    }
+
+    .navbar .container .nav-menu .logo {
+        width: 9%;
+        height: 72%;
+    }
+
+    .navbar .container .nav-menu .logo img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .navbar .container .nav-menu ul li {
+        width: 140px;
+        height: 50px;
+    }
+
+    .navbar .container .nav-menu ul li a {
+        font-size: 16px;
+    }
+
+    .navbar .container .nav-menu-1 i {
+        paddinnav-menu-1
+    .navbar .container .nav-menu-1 a {
+        font-size: 16px;
+        width: 140px;
+        height: 50px;
+    }
+    .ico{
+        display: none !important;
+    }
+
+    /* ======================== banner ========================= */
+
+    .banner {
+        width: 100% !important;
+        height: 650px;
+        margin: 1% 0;
+        background-size: 98%;
+    }
+
+    .banner .container {
+        width: 100% !important;
+    }
+
+    .banner .container .row {
+        top: 0;
+        left: 0;
+    }
+
+    .banner .container .row .banner-head {
+        font-size: 30px;
+        top: 4%;
+        left: 10%;
+    }
+
+    .banner .container .row .banner-text {
+        margin-top: 2%;
+        margin-left: 10%;
+    }
+
+    .banner .container .row .banner-text h2 {
+        font-size: 220px !important;
+    }
+
+    .banner .container .row .banner-text .leaf {
+        width: 35%;
+        height: 70% !important;
+        top: 12% !important;
+        left: 40% !important;
+    }
+
+    .banner .container .row .desc {
+        left: 25%;
+        top: 62%;
+    }
+
+    .banner .container .row .plant-count {
+        width: 30%;
+        height: 30%;
+        top: 16%;
+        left: 0%;
+    }
+
+    .banner .container .row .plant-count .plant-figure {
+        padding: 5%;
+    }
+
+    .banner .container .row .plant-count .plant-figure .head {
+        font-size: 20px;
+    }
+
+    .banner .container .row .plant-count .plant-figure .plant-desc {
+        font-size: 14px;
+    }
+
+    .banner .container .row .plant-count .plant-type {
+        padding: 5%;
+    }
+
+    .banner .container .row .plant-count .plant-type figure {
+        width: 75%;
+        height: 40%;
+    }
+
+    .banner .container .row .plant-count .plant-type figure img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .arrow-down {
+        top: 85%;
+        left: 92%;
+        padding: 4px 12px;
+    }
+
+    .banner .container .shop-plants {
+        top: 112%;
+        left: 75.5%;
+        border-radius: 25px;
+        width: 27.5%;
+        height: 18%;
+    }
+
+    .banner .container .shop-plants a {
+        font-size: 20px !important;
+    }
+
+    /* ======================= for people ======================== */
+
+    .for-people {
+        height: 250px;
+    }
+
+    .for-people .container .row .heading h2 {
+        font-size: 36px;
+    }
+
+    .for-people .container .row .video-content i {
+        width: 5%;
+        height: 5%;
+        font-size: 12px;
+        left: 85%;
+    }
+
+    .for-people .container .row .video-content video {
+        width: 95%;
+    }
+
+    .for-people .container .row .people-desc p {
+        font-size: 30px;
+    }
+
+    .for-people .container .row .people-desc span.image img {
+        width: 20%;
+        height: 100%;
+    }
+
+    /* ========================= plant gallery ========================== */
+
+    .plant-gallery {
+        height: 530px;
+    }
+
+    .plant-gallery .container #row-1 a {
+        font-size: 20px;
+    }
+
+    .plant-gallery .container #row-1 .see-all {
+        font-size: 20px;
+        border: 1px solid black;
+    }
+
+    .plant-gallery .container #row-2 .plant-card-layout {
+        height: 90%;
+    }
+
+    .plant-gallery .container #row-2 .plant-card-layout .plant-card .heading button {
+        width: 10.2%;
+        height: 50%;
+    }
+
+    .plant-gallery .container #row-2 .plant-card-layout .plant-card .plant-desc {
+        font-size: 14px;
+    }
+
+    .plant-gallery .container #row-2 .plant-card-layout .plant-card .button button {
+        padding-right: 34px;
+    }
+
+    /* ======================== new plants ======================= */
+
+    .new-plants {
+        height: 900px;
+    }
+
+    .new-plants .container .row .heading h2 {
+        font-size: 90px;
+    }
+
+    .new-plants-card-layout .swiper-slide .card-image {
+        height: 70% !important;
+    }
+
+    .new-plants-card-layout .swiper-slide .card-image .wishlist-btn i {
+        font-size: 16px !important;
+    }
+
+    .new-plants-card-layout .swiper-slide .card-content .card-desc h3 {
+        font-size: 24px !important;
+    }
+
+    .new-plants-card-layout .swiper-slide:hover {
+        .price {
+            transform: scale(1.3) !important;
+        }
+    }
+
+    .new-plants-card-layout .swiper-slide .card-content button {
+        padding: 14px 16px;
+        margin-right: 5px;
+    }
+
+    .swiper-pagination-bullet {
+        width: 24px;
+        height: 24px;
+    }
+
+    /* ========================= indoor ========================== */
+
+    .indoor {
+        height: 800px;
+    }
+
+    .indoor .container .row .heading h2 {
+        font-size: 100px;
+    }
+
+    .indoor .container .row .indoor-part-2 .indoor-collection-layout .indoor-card #card-name {
+        font-size: 50px;
+    }
+
+    .indoor .container .row .indoor-part-2 .indoor-collection-layout .indoor-card .card-content h3 {
+        font-size: 50px;
+    }
+
+    .indoor .container .row .indoor-part-2 .indoor-collection-layout .indoor-card .card-content p {
+        font-size: 14px;
+        letter-spacing: 1px;
+    }
+
+    .indoor .container .row .indoor-part-2 .indoor-collection-layout .indoor-card .button button {
+        font-size: 18px !important;
+        padding: 14px 16px !important;
+    }
+
+    .indoor .container .row .indoor-part-2 .indoor-collection-layout .indoor-card .card-content {
+        padding: 4%;
+    }
+
+    /* ======================== quality =========================*/
+
+    .quality {
+        height: 800px;
+    }
+
+    .quality .container .row .heading h2 {
+        font-size: 70px;
+    }
+
+    .quality .container .row .heading p {
+        font-size: 16px;
+        padding: 0 10%;
+    }
+
+    .quality .container .row .quality-content #content-image {
+        width: 80%;
+        height: 70%;
+    }
+
+    .quality .container .row .quality-content .play-icon {
+        width: 80px;
+        height: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .quality .container .row .quality-content .play-icon figure {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .quality .container .row .quality-content .play-icon img {
+        text-align: center !important;
+        width: 70% !important;
+    }
+
+    /* =========================== accordion ============================ */
+
+    .accordion {
+        height: 800px;
+    }
+
+    .accordion .container .row .accordion-wrapper .faq-content {
+        padding: 4% 2%;
+    }
+
+    .accordion .container .row .accordion-wrapper .faq-content .question h3 {
+        font-size: 36px;
+    }
+
+}
+}
+/* ====================== media query: 992px ===========================*/
+
+@media screen and (max-width:992px) {
+
+    body{
+        overflow-x: hidden !important;
+    }
+
+    .container {
+        max-width: 960px !important;
+    }
+
+    h1 {
+        font-size: 160px;
+    }
+
+    /* ========================== navbar =========================== */
+
+    .navbar {
+        padding: 0;
+    }
+
+    .navbar .container {
+        position: relative;
+        width: 100%;
+        padding: 0px 40px;
+    }
+
+    .navbar .container .nav-menu {
+        display: none;
+    }
+
+    .navbar .container .nav-menu ul {
+        position: absolute;
+        height: auto;
+        top: 70px;
+        padding-bottom: 10px;
+        width: 25%;
+        display: block;
+        transition: none;
+        left: 85%;
+    }
+
+    .navbar .container .nav-menu ul li {
+        width: 100%;
+        margin-bottom: 10px;
+        width: 120px;
+        height: 40px;
+    }
+
+    .ico {
+        display: inline-block !important;
+        width: 50px;
+        height: 50px;
+        text-align: center;
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+
+    .nav-menu-1 {
+        width: 60%;
+    }
+
+    .banner .container .row .banner-head {
+        left: 20%;
+        font-size: 22px;
+    }
+
+    .banner .container .row .banner-text {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 30px;
+    }
+
+    .banner .container .row .banner-text h2 {
+        font-size: 160px !important;
+    }
+
+    .banner .container .row .banner-text .leaf {
+        top: 13% !important;
+        left: 44.5% !important;
+        width: 26%;
+        height: 48% !important;
+    }
+
+    .banner .container .row .desc {
+        width: 48%;
+        top: 49%;
+        left: 33%;
+        font-size: 15px;
+    }
+
+    .banner .container .row .plant-count {
+        width: 30%;
+        left: 0%;
+    }
+    .banner .container .row .plant-count .plant-figure{
+        position: relative;
+        bottom: 90px;
+    }
+    .banner .container .row .plant-type{
+        position: relative;
+        bottom: 90px;
+    }
+    .arrow-down {
+        padding: 2px 10px;
+        top: 82%;
+        left: 95%;
+    }
+
+    .banner .container .shop-plants {
+        width: 28%;
+        height: 17%;
+        top: 78%;
+        left: 72%;
+    }
+    .banner .container .arrow-down{
+        top: 58%;
+        left: 88%;
+    }
+    .for-people {
+        height: 200px;
+    }
+
+    .for-people .container .row .heading {
+        width: 30%;
+    }
+
+    .for-people .container .row .heading h2 {
+        font-size: 30px;
+    }
+
+    .for-people .container .row .video-content {
+        width: 20%;
+    }
+
+    .for-people .container .row .people-desc {
+        width: 40%;
+    }
+
+    .for-people .container .row .people-desc p {
+        font-size: 25px;
+    }
+
+
+    .plant-gallery {
+        height: 450px;
+    }
+
+    .plant-gallery .container #row-1 a {
+        font-size: 16px;
+        padding: 14px;
+    }
+
+    .plant-gallery .container #row-1 .see-all {
+        padding: 14px 28px;
+        font-size: 16px;
+    }
+
+    .plant-gallery .container #row-2 .plant-card-layout .plant-card .heading h3 {
+        font-size: 26px;
+    }
+
+    .plant-gallery .container #row-2 .plant-card-layout .plant-card .heading button {
+        padding: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* ========================== new plants ========================== */
+
+    .new-plants {
+        height: 700px;
+    }
+
+    .new-plants .container .row .heading h2 {
+        font-size: 75px;
+    }
+
+    .new-plants-card-layout {
+        height: 100% !important;
+    }
+
+    .new-plants-card-layout .swiper-slide {
+        height: 90% !important;
+    }
+
+    .new-plants-card-layout .swiper-slide .card-image .wishlist-btn i {
+        padding: 8px !important;
+        font-size: 10px !important;
+    }
+
+    .new-plants-card-layout .swiper-slide .card-image {
+        height: 70% !important;
+    }
+
+    .new-plants-card-layout .swiper-slide .card-content .card-desc h3 {
+        font-size: 20px !important;
+    }
+
+    .new-plants-card-layout .swiper-slide .card-content .card-desc p {
+        font-size: 14px !important;
+    }
+
+    .new-plants-card-layout .swiper-slide .card-content .card-desc .price {
+        font-size: 15px !important;
+    }
+
+    /* ========================= indoor ========================== */
+
+    .indoor {
+        height: 600px;
+    }
+
+    .indoor .container .row .heading h2 {
+        font-size: 75px;
+    }
+
+    .indoor .container .row .indoor-part-2 .indoor-collection-layout .indoor-card #card-name {
+        font-size: 35px;
+    }
+
+    .indoor .container .row .indoor-part-2 .indoor-collection-layout .indoor-card .card-content h3 {
+        font-size: 30px;
+    }
+
+    .indoor .container .row .indoor-part-2 .indoor-collection-layout .indoor-card .card-content p {
+        font-size: 12px;
+        letter-spacing: 1px;
+    }
+
+    /* ======================== quality =========================*/
+
+    .quality {
+        height: 650px;
+    }
+
+    .quality .container .row .heading h2 {
+        font-size: 60px;
+    }
+
+    .quality .container .row .quality-content #content-image {
+        width: 65%;
+    }
+
+    .quality .container .row .quality-content .play-icon {
+        width: 60px;
+        height: 60px;
+    }
+
+    /* =========================== accordion ============================ */
+
+    .accordion {
+        height: 550px;
+    }
+
+    .accordion .container .row .accordion-wrapper .faq-content {
+        padding: 2% 2%;
+    }
+
+    .accordion .container .row .accordion-wrapper .faq-content .question h3 {
+        font-size: 30px;
+    }
+    .end .container .row h6{
+        color: white;
+        font-size: 93px;
+        position: relative;
+        left: 30px;
+        text-align: center;
+    }
+    .end .container .row-2{
+        margin-top: 103px;
+        background-color: white;
+        width: 100%;
+        width: 1380px;
+        height: 292px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        right: 250px;
+        border-radius: 30px;
+        row-gap: 40px;
+    }
+    .end .container .row-2 .connections{
+        border: 2px solid black;
+        width: 596px;
+        height: 74px;
+        border-radius: 30px;
+        position: relative;
+        right: 10px;
+    }
+    .end .container .row-2 .connections ul li a{
+        padding: 12.5px 8.5px;
+        color: black;
+        /* background-color: black; */
+        border-radius: 30px;
+        border: 1px solid black;  
+        font-size: 23px; 
+    }
+}
+
+/* ====================== media query: 768px ===========================*/
+
+@media screen and (max-width: 768px) {
+
+    body{
+        overflow-x: hidden !important;
+    }
+
+    h1 {
+        font-size: 130px;
+    }
+
+    /* ========================= navbar ========================== */
+
+    .navbar .container .logo {
+        width: 40px;
+        height: 40px;
+    }
+
+    .navbar .container .nav-menu ul {
+        left: 80%;
+    }
+
+    .navbar .container .nav-menu-1 form input {
+        padding: 8px 12px !important;
+        width: 180px;
+    }
+
+    .navbar .container .nav-menu-1 form input::placeholder {
+        font-size: 12px;
+        padding: 0 !important;
+    }
+
+    .navbar .container .nav-menu-1 {
+        width: 80%;
+    }
+
+    .navbar .container .nav-menu-1 a {
+        font-size: 14px;
+        width: 100px;
+        height: 30px;
+    }
+
+    .navbar .container .nav-menu-1 i {
+        width: 40px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: white !important;
+    }
+
+    .search-icon {
+        color: black !important;
+    }
+
+    .ico {
+        color: black !important;
+    }
+
+
+
+    /* ======================= banner ======================== */
+
+    .banner {
+        height: 480px;
+    }
+
+    .banner .container .row .banner-head {
+        left: 20%;
+        font-size: 19px;
+    }
+
+    .banner .container .row .banner-text {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    .banner .container .row .banner-text h2 {
+        font-size: 120px !important;
+    }
+
+    .banner .container .row .banner-text .leaf {
+        top: 10% !important;
+        left: 46% !important;
+        width: 26%;
+        height: 50% !important;
+    }
+
+    .banner .container .row .desc {
+        width: 48%;
+        top: 50%;
+        left: 33%;
+        font-size: 12px;
+    }
+
+    .banner .container .row .plant-count {
+        width: 40%;
+        height: 50%;
+        left: 0%;
+        top: 55%;
+    }
+
+    .arrow-down {
+        /* padding: 2px 10px; */
+        width: 40px;
+        height: 40px;
+        top: 120%;
+        left: 96%;
+        border-width: 1px;
+    }
+
+    .arrow-down i {
+        font-size: 20px;
+    }
+
+    .banner .container .shop-plants {
+        width: 28%;
+        height: 18%;
+        top: 112%;
+        left: 70.5%;
+        border-radius: 20px;
+    }
+
+    .banner .container .shop-plants a {
+        font-size: 16px !important;
+    }
+
+    /* ====================== for people ======================= */
+
+    .for-people {
+        height: 480px !important;
+    }
+
+    .for-people .container .row {
+        flex-wrap: wrap;
+    }
+
+    .for-people .container .row .heading {
+        width: 50%;
+        height: 43% !important;
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: space-between !important;
+        align-items: center !important;
+    }
+
+    .for-people .container .row .heading h2 {
+        font-size: 36px;
+        text-align: center;
+    }
+
+    .for-people .container .row .heading p {
+        text-align: center;
+    }
+
+    .for-people .container .row .video-content {
+        width: 50%;
+        height: 50%;
+    }
+
+    .for-people .container .row .video-content i {
+        left: 80%;
+    }
+
+    .for-people .container .row .people-desc {
+        width: 100%;
+        height: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 25px;
+    }
+
+    .for-people .container .row .people-desc p {
+        text-align: center;
+        font-size: 20px !important;
+    }
+
+    .for-people .container .row .people-desc span.image img {
+        width: 10% !important;
+    }
+
+    /* ========================= plant gallery ========================== */
+
+    .plant-gallery {
+        height: 700px;
+    }
+
+    .plant-gallery .container #row-1 a {
+        font-size: 14px;
+    }
+
+    .plant-gallery .container #row-1 .see-all {
+        font-size: 14px;
+    }
+
+    .plant-gallery .container #row-2 .plant-card-layout {
+        height: 100%;
+        width: 90%;
+        flex-wrap: wrap;
+    }
+
+    .plant-gallery .container #row-2 .plant-card-layout #pet-friendly {
+        width: 100%;
+        height: 52%;
+        padding: 3% 5%;
+    }
+
+    .plant-gallery .container #row-2 .plant-card-layout #orchids {
+        width: 50%;
+        height: 40%;
+    }
+
+    .plant-gallery .container #row-2 .plant-card-layout #succulents {
+        width: 48%;
+        height: 40%;
+    }
+
+    .plant-gallery .container #row-2 .plant-card-layout .plant-card .heading h3 {
+        font-size: 40px;
+    }
+
+    .plant-gallery .container #row-2 .plant-card-layout .plant-card .heading button {
+        width: 30px;
+        height: 30px;
+    }
+
+    .plant-gallery .container #row-2 .plant-card-layout .plant-card .button {
+        height: 25%;
+    }
+
+    .plant-gallery .container #row-2 .plant-card-layout .plant-card .button button {
+        padding-right: 20px;
+        margin-top: 20px !important;
+    }
+
+    .plant-gallery .container #row-2 .plant-card-layout .plant-card .button button img {
+        width: 50% !important;
+        height: 50% !important;
+    }
+
+    /* ====================== new plants ======================= */
+
+    .new-plants {
+        height: 700px;
+    }
+
+    .new-plants .container .row .heading {
+        width: 100%;
+        height: 25% !important;
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: space-between !important;
+        align-items: center !important;
+    }
+
+    .new-plants .container .row .heading h2 {
+        font-size: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .new-plants .container .row .heading p {
+        width: 80%;
+        text-align: center;
+        font-size: 13px;
+    }
+
+    .new-plants-card-layout {
+        width: 80% !important;
+    }
+
+    .new-plants-card-layout .swiper-slide .card-content button {
+        padding: 8px 10px;
+        margin-right: 5px;
+    }
+
+    .swiper-pagination-bullet {
+        width: 24px !important;
+        height: 24px !important;
+    }
+
+    .swiper-pagination-bullet-active {
+        width: 32px !important;
+    }
+
+    /* ========================= indoor ========================== */
+
+    .indoor {
+        height: 500px;
+    }
+
+    .indoor .container .row .heading h2 {
+        font-size: 50px;
+    }
+
+    .indoor .container .row .indoor-part-2 .indoor-collection-layout {
+        width: 90%;
+        height: 90%;
+    }
+
+    .indoor .container .row .indoor-part-2 .indoor-collection-layout .indoor-card #card-name {
+        font-size: 25px;
+    }
+
+    .indoor .container .row .indoor-part-2 .indoor-collection-layout .indoor-card .card-content h3 {
+        font-size: 25px;
+    }
+
+    .indoor .container .row .indoor-part-2 .indoor-collection-layout .indoor-card .card-content {
+        padding: 3%;
+        height: 90%;
+    }
+
+    .indoor .container .row .indoor-part-2 .indoor-collection-layout .indoor-card .button button {
+        position: absolute;
+        z-index: 2;
+        top: 8%;
+        left: 82%;
+    }
+
+    .indoor .container .row .indoor-part-2 .indoor-collection-layout #card-2 .button button {
+        left: 75%;
+    }
+
+    .indoor .container .row .indoor-part-2 .indoor-collection-layout #card-3 .button button {
+        left: 75%;
+    }
+
+    .indoor .container .row .indoor-part-2 .indoor-collection-layout .indoor-card:hover {
+        .card-content {
+            top: 5%;
+        }
+    }
+
+    .indoor .container .row .indoor-part-2 .indoor-collection-layout .indoor-card .card-content p {
+        font-size: 10px !important;
+        font-weight: 100;
+    }
+
+    /* ======================== quality =========================*/
+
+    .quality {
+        height: 600px;
+    }
+
+    .quality .container .row .heading {
+        width: 80%;
+        height: 40%;
+    }
+
+    .quality .container .row .heading h2 {
+        font-size: 50px;
+        margin-bottom: 15px;
+    }
+
+    .quality .container .row .heading p {
+        font-size: 12px;
+    }
+
+    .quality .container .row .quality-content #content-image {
+        width: 80%;
+    }
+
+    .quality .container .row .quality-content .play-icon {
+        width: 50px;
+        height: 50px;
+    }
+
+    .quality .container .row .quality-content .play-icon img {
+        width: 50% !important;
+    }
+
+    /* =========================== accordion ============================ */
+
+    .accordion {
+        height: 450px;
+    }
+
+    .accordion .container .row .accordion-wrapper .faq-content {
+        padding: 0.8% 2%;
+    }
+
+    .accordion .container .row .accordion-wrapper .faq-content .question h3 {
+        font-size: 20px;
+    }
+
+    .accordion .container .row .accordion-wrapper .faq-content .question .button {
+        padding: 15px 16px !important;
+    }
+    .end .container .row h6{
+        color: white;
+        font-size: 93px;
+        position: relative;
+        left: 30px;
+        text-align: center;
+    }
+    .end .container .row-2{
+        margin-top: 103px;
+        background-color: white;
+        width: 100%;
+        width: 1380px;
+        height: 292px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        right: 310px;
+        border-radius: 30px;
+        row-gap: 40px;
+    }
+    .end .container .row-2 .connections{
+        border: 2px solid black;
+        width: 596px;
+        height: 74px;
+        border-radius: 30px;
+        position: relative;
+        right: 10px;
+    }
+    .end .container .row-2 .connections ul li a{
+        padding: 12.5px 8.5px;
+        color: black;
+        /* background-color: black; */
+        border-radius: 30px;
+        border: 1px solid black;  
+        font-size: 23px; 
+    }
+}
+
+/* ======================== @media screen (576px) ============================= */
+
+@media screen and (max-width: 576px) {
+
+    body{
+        overflow-x: hidden !important;
+    }
+
+    h1 {
+        font-size: 100px;
+    }
+
+    /* ========================= navbar ========================== */
+
+    .navbar {
+        margin-top: 5px !important;
+    }
+
+    .navbar .container .logo {
+        width: 25px;
+        height: 25px;
+    }
+
+    .navbar .container .nav-menu ul {
+        left: 80%;
+    }
+
+    .navbar .container .nav-menu-1 {
+        width: 90%;
+    }
+
+    .navbar .container .nav-menu-1 form input {
+        padding: 8px 8px !important;
+        width: 120px;
+        height: 30px;
+    }
+
+    .navbar .container .nav-menu-1 form input::placeholder {
+        font-size: 10px;
+        padding: 0 !important;
+    }
+
+    .navbar .container .nav-menu-1 form input[type=text] {
+        font-size: 10px;
+    }
+
+    .navbar .container .nav-menu-1 {
+        width: 80%;
+        height: 80%;
+    }
+
+    .navbar .container .nav-menu-1 a {
+        font-size: 12px;
+        padding: 10px 8px !important;
+    }
+
+    .navbar .container .nav-menu-1 i {
+        width: 16px !important;
+        height: 16px !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: white !important;
+    }
+
+    .search-icon {
+        padding: 12px !important;
+        font-size: 12px !important;
+    }
+
+    .ico {
+        padding: 12px !important;
+        font-size: 13px !important;
+    }
+
+    /* ======================== banner ====================== */
+
+    .banner {
+        height: 360px;
+    }
+
+    .banner .container .row .banner-head {
+        left: 16%;
+        font-size: 19px;
+    }
+
+    .banner .container .row .banner-text {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    .banner .container .row .banner-text h2 {
+        font-size: 100px !important;
+    }
+
+    .banner .container .row .banner-text .leaf {
+        top: 14% !important;
+        left: 46.5% !important;
+        width: 26%;
+        height: 50% !important;
+    }
+
+    .banner .container .row .desc {
+        width: 52%;
+        top: 50%;
+        left: 32%;
+        font-size: 10px;
+    }
+
+    .banner .container .row .plant-count {
+        width: 35%;
+        height: 40%;
+        left: 0%;
+        top: 60%;
+    }
+
+    .banner .container .row .plant-count .plant-figure {
+        border-radius: 15px;
+    }
+
+    .banner .container .row .plant-count .plant-figure .head {
+        font-size: 16px;
+    }
+
+    .banner .container .row .plant-count .plant-figure .plant-desc {
+        font-size: 10px;
+    }
+
+    .banner .container .row .plant-count .plant-type {
+        border-radius: 15px !important;
+    }
+
+    .arrow-down {
+        /* padding: 2px 10px; */
+        width: 25px;
+        height: 25px;
+        top: 92%;
+        left: 98%;
+        border-width: 1px;
+    }
+
+    .arrow-down i {
+        font-size: 14px;
+    }
+
+    .banner .container .shop-plants {
+        width: 29%;
+        height: 18%;
+        top: 103%;
+        left: 71.5%;
+        border-radius: 15px;
+    }
+
+    .banner .container .shop-plants a {
+        font-size: 12px !important;
+    }
+
+    /* ===================== for people ====================== */
+
+    .for-people {
+        height: 350px;
+    }
+
+    .for-people .container .row .heading {
+        height: 50%;
+        padding: 5px;
+    }
+
+    .for-people .container .row .heading h2 {
+        font-size: 24px;
+    }
+
+    .for-people .container .row .video-content {
+        width: 45%;
+        height: 50%;
+        padding: 5px;
+    }
+
+    .for-people .container .row .video-content video {
+        width: 100%;
+        height: 100%;
+    }
+
+    .for-people .container .row .video-content i {
+        left: 86%;
+    }
+
+    .for-people .container .row .people-desc p {
+        font-size: 20px;
+    }
+
+    /* ========================= plant gallery ========================== */
+
+    .plant-gallery {
+        height: 500px;
+    }
+
+    .plant-gallery .container #row-1 {
+        height: 15%;
+    }
+
+    .plant-gallery .container #row-1 .gallery-menu {
+        width: 70%;
+        height: 80%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .plant-gallery .container #row-1 a {
+        width: 30%;
+        height: 15px;
+        padding: 10px 10px;
+        font-size: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .plant-gallery .container #row-1 .see-all {
+        font-size: 12px;
+        padding: 16px;
+        width: 23%;
+        height: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: -6%;
+    }
+
+    .plant-gallery .container #row-2 {
+        height: 85%;
+    }
+
+    .plant-gallery .container #row-2 .plant-card-layout {
+        height: 100%;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .plant-gallery .container #row-2 .plant-card-layout .plant-card .heading h3 {
+        font-size: 20px;
+    }
+
+    .plant-gallery .container #row-2 .plant-card-layout .plant-card .plant-desc p {
+        font-size: 10px;
+    }
+
+    .plant-gallery .container #row-2 .plant-card-layout .plant-card .heading button {
+        padding: 15px;
+    }
+
+    .plant-gallery .container #row-2 .plant-card-layout .plant-card .button {
+        width: 100% !important;
+        height: 25% !important;
+    }
+
+    .plant-gallery .container #row-2 .plant-card-layout .plant-card .button button {
+        padding-right: 20px;
+        margin-top: 20px !important;
+    }
+
+    .plant-gallery .container #row-2 .plant-card-layout .plant-card .button button img {
+        width: 20% !important;
+        height: 20% !important;
+    }
+
+    /* ====================== new plants ======================= */
+
+    .new-plants {
+        height: 600px;
+    }
+
+    .new-plants-card-layout {
+        height: 100% !important;
+    }
+
+    .new-plants-card-layout .swiper-slide .card-image {
+        height: 70% !important;
+    }
+
+    .new-plants .container .row .heading h2 {
+        font-size: 40px;
+    }
+
+    .new-plants-card-layout .swiper-slide .card-content h3 {
+        font-size: 18px !important;
+    }
+
+    .new-plants-card-layout .swiper-slide .card-content p {
+        font-size: 10px !important;
+    }
+
+    .new-plants-card-layout .swiper-slide .card-content .price {
+        font-size: 11px !important;
+    }
+
+    .swiper-pagination-bullet {
+        width: 24px !important;
+        height: 24px !important;
+    }
+
+    .swiper-pagination-bullet-active {
+        width: 30px !important;
+    }
+
+    /* ========================= indoor ========================== */
+
+    .indoor .container .row .heading h2 {
+        font-size: 40px;
+    }
+
+    .indoor .container .row .indoor-part-2 .indoor-collection-layout .indoor-card #card-name {
+        font-size: 20px;
+    }
+
+    .indoor .container .row .indoor-part-2 .indoor-collection-layout .indoor-card .button button {
+        font-size: 14px !important;
+        padding: 8px 10px !important;
+        top: 5%;
+    }
+
+    .indoor .container .row .indoor-part-2 .indoor-collection-layout #card-2 .button button {
+        top: 5%;
+    }
+
+    .indoor .container .row .indoor-part-2 .indoor-collection-layout #card-3 .button button {
+        top: 5%;
+    }
+
+    /* ======================== quality =========================*/
+
+    .quality {
+        height: 500px;
+    }
+
+    .quality .container .row {
+        height: 100%;
+    }
+
+    .quality .container .row .heading {
+        width: 100% !important;
+    }
+
+    .quality .container .row .heading h2 {
+        font-size: 40px !important;
+    }
+
+    .quality .container .row .heading p {
+        font-size: 12px;
+        padding: 0 !important;
+    }
+
+    .quality .container .row .quality-content #content-image {
+        width: 90%;
+        height: 60%;
+    }
+
+    .quality .container .row .quality-content .play-icon {
+        width: 45px;
+        height: 45px;
+    }
+
+    /* =========================== accordion ============================ */
+
+    .accordion {
+        height: 400px;
+    }
+
+    .accordion .container .row .accordion-wrapper .faq-content {
+        padding: 1% 2%;
+    }
+
+    .accordion .container .row .accordion-wrapper .faq-content .question h3 {
+        font-size: 20px;
+    }
+    .end .container .row h6{
+        color: white;
+        font-size: 73px;
+        position: relative;
+        left: 30px;
+        text-align: center;
+    }
+    .end .container .row p{
+        color: white;
+        font-size: 16px;
+        width: 440px;
+        height: 24px;
+        text-align: center;
+    }
+    .end .container .row-2{
+        margin-top: 103px;
+        background-color: white;
+        width: 100%;
+        width: 1380px;
+        height: 292px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        right: 410px;
+        border-radius: 30px;
+        row-gap: 40px;
+    }
+    .end .container .row-2 .connections{
+        border: 2px solid black;
+        width: 456px;
+        height: 74px;
+        border-radius: 30px;
+        position: relative;
+        right: 10px;
+    }
+    .end .container .row-2 .connections ul li a{
+        padding: 12.5px 8.5px;
+        color: black;
+        /* background-color: black; */
+        border-radius: 30px;
+        border: 1px solid black;  
+        font-size: 16px; 
+    }
+}
+
+/* ======================== @media screen (480px) ============================= */
+
+@media screen and (max-width: 480px) {
+
+    body{
+        overflow-x: hidden !important;
+    }
+
+    h1 {
+        font-size: 80px;
+    }
+
+    /* ========================= navbar ========================== */
+
+    .navbar {
+        margin-top: 0px !important;
+    }
+
+    .navbar .container .logo {
+        width: 25px;
+        height: 25px;
+    }
+
+    .navbar .container .nav-menu ul {
+        left: 80%;
+    }
+
+    .navbar .container .nav-menu-1 {
+        width: 90%;
+    }
+
+    .navbar .container .nav-menu-1 form {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .navbar .container .nav-menu-1 form input {
+        padding: 8px 8px !important;
+        width: 100px;
+        height: 20px;
+    }
+
+    .navbar .container .nav-menu-1 a {
+        width: 60px;
+        height: 20px;
+        font-size: 10px;
+        letter-spacing: 0.5px;
+    }
+
+    .navbar .container .nav-menu-1 i {
+        width: 16px !important;
+        height: 16px !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: white !important;
+    }
+
+    .search-icon {
+        padding: 10px !important;
+        font-size: 12px !important;
+    }
+
+    .ico {
+        padding: 10px !important;
+        font-size: 12px !important;
+    }
+
+    /* ========================= banner ========================= */
+
+    .banner {
+        height: 300px;
+        width: 100%;
+    }
+
+    .banner .container {
+        margin: 0 !important;
+    }
+
+    .banner .container .row .banner-head {
+        left: 17%;
+        font-size: 10px;
+    }
+
+    .banner .container .row .banner-text {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 5px !important;
+    }
+
+    .banner .container .row .banner-text h2 {
+        font-size: 80px !important;
+    }
+
+    .banner .container .row .banner-text .leaf {
+        top: 8% !important;
+        left: 47% !important;
+        width: 26%;
+        height: 54% !important;
+    }
+
+    .banner .container .row .desc {
+        width: 60%;
+        top: 46%;
+        left: 30%;
+        font-size: 10px;
+    }
+
+    .banner .container .row .plant-count {
+        width: 32%;
+        height: 40%;
+        left: -5%;
+        top: 70%;
+    }
+    .banner .container .row .plant-count .plant-figure .plant-desc{
+        font-size: 12px;
+    }
+    .banner .container .row .plant-count .plant-figure {
+        border-radius: 10px;
+    }
+
+    .banner .container .row .plant-count .plant-figure .head {
+        font-size: 12px;
+    }
+
+    .banner .container .row .plant-count .plant-figure .plant-desc {
+        font-size: 8px;
+    }
+
+    .banner .container .row .plant-count .plant-type {
+        border-radius: 10px !important;
+        width: 40%;
+    }
+
+    .arrow-down {
+        /* padding: 2px 10px; */
+        width: 25px;
+        height: 25px;
+        top: 92%;
+        left: 98%;
+        border-width: 1px;
+    }
+
+    .arrow-down i {
+        font-size: 14px;
+    }
+
+    .banner .container .shop-plants {
+        width: 30%;
+        height: 18%;
+        top: 112%;
+        left: 72.5%;
+        border-radius: 10px;
+    }
+
+    .banner .container .shop-plants a {
+        font-size: 10px !important;
+    }
+
+    /* ===================== for people ====================== */
+
+    .for-people {
+        height: 260px;
+    }
+
+    .for-people .container .row {
+        height: 90%;
+    }
+
+    .for-people .container .row .heading {
+        width: 100%;
+        height: 15% !important;
+    }
+
+    .for-people .container .row .heading h2 {
+        font-size: 22px;
+    }
+
+    .for-people .container .row .heading p {
+        font-size: 10px;
+    }
+
+    .for-people .container .row .video-content {
+        width: 100%;
+        height: 55%;
+        padding: 14px;
+    }
+
+    .for-people .container .row .video-content video {
+        width: 100% !important;
+        height: 100% !important;
+    }
+
+    .for-people .container .row .video-content i {
+        left: 50%;
+        padding: 20px;
+    }
+
+    .for-people .container .row .people-desc {
+        width: 100%;
+        height: 20%;
+        margin: 0;
+    }
+
+    .for-people .container .row .people-desc p {
+        font-size: 12px;
+    }
+
+    /* ========================= plant gallery ========================== */
+
+    .plant-gallery {
+        height: 500px;
+    }
+
+    .plant-gallery .container #row-1 {
+        height: 20%;
+    }
+
+    .plant-gallery .container #row-1 .gallery-menu {
+        width: 70%;
+        height: 80%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .plant-gallery .container #row-1 a {
+        width: 48%;
+        height: 15px;
+        padding: 14px 6px;
+        font-size: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .plant-gallery .container #row-1 .see-all {
+        font-size: 12px;
+        padding: 16px;
+        width: 23%;
+        height: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: -10%;
+    }
+
+    .plant-gallery .container #row-2 {
+        height: 80%;
+    }
+
+    .plant-gallery .container #row-2 .plant-card-layout .plant-card .button button {
+        font-size: 10px;
+    }
+
+    /* ====================== new plants ======================= */
+
+    .new-plants {
+        height: 550px;
+    }
+
+    .new-plants .container .row {
+        height: 100%;
+    }
+
+    .new-plants .container .row .heading {
+        height: 30% !important;
+        width: 100% !important;
+        padding: 10px 5px;
+    }
+
+    .new-plants .container .row .heading h2 {
+        font-size: 30px;
+    }
+
+    .new-plants .container .row .new-plants-part-2 {
+        height: 70% !important;
+        width: 100% !important;
+    }
+
+    .new-plants .container .row .new-plants-part-2 .new-plants-card-layout {
+        height: 100% !important;
+        width: 100% !important;
+    }
+
+    .new-plants .container .row .new-plants-part-2 .new-plants-card-layout .swiper {
+        height: 100% !important;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .new-plants .container .row .new-plants-part-2 .new-plants-card-layout .swiper .swiper-wrapper {
+        height: 90% !important;
+    }
+
+    .new-plants .container .row .new-plants-part-2 .new-plants-card-layout .swiper .swiper-wrapper .swiper-slide {
+        height: 95% !important;
+    }
+
+    .swiper-pagination {
+        height: 5% !important;
+    }
+
+    /* ========================= indoor ========================== */
+
+    .indoor {
+        height: 800px;
+    }
+
+    .indoor .container .row {
+        width: 100% !important;
+    }
+
+    .indoor .container .row .heading {
+        height: 10%;
+        width: 100% !important;
+        padding: 10px !important;
+    }
+
+    .indoor .container .row .heading h2 {
+        font-size: 30px;
+        width: 100% !important;
+    }
+
+    .indoor .container .row .heading p {
+        width: 100% !important;
+        padding: 0 !important;
+    }
+
+    .indoor .container .row .indoor-part-2 {
+        width: 100% !important;
+        height: 90% !important;
+    }
+
+    .indoor .container .row .indoor-part-2 .indoor-collection-layout .indoor-card {
+        width: 100% !important;
+        height: 24% !important;
+    }
+
+    .indoor .container .row .indoor-part-2 .indoor-collection-layout .indoor-card #card-name {
+        font-size: 25px;
+    }
+
+    .indoor .container .row .indoor-part-2 .indoor-collection-layout .indoor-card .button button {
+        font-size: 14px !important;
+        padding: 8px 10px !important;
+        top: 8% !important;
+        left: 86% !important;
+    }
+
+    .indoor .container .row .indoor-part-2 .indoor-collection-layout .indoor-card .card-content h3 {
+        font-size: 25px !important;
+    }
+
+    .indoor .container .row .indoor-part-2 .indoor-collection-layout .indoor-card .card-content {
+        background-color: rgb(255, 255, 255, 0.2);
+    }
+
+    .indoor .container .row .indoor-part-2 .indoor-collection-layout .indoor-card .card-content p {
+        font-size: 12px !important;
+    }
+
+    /* ======================== quality =========================*/
+
+    .quality {
+        height: 350px;
+    }
+
+    .quality .container .row .heading h2 {
+        font-size: 30px !important;
+    }
+
+    /* =========================== accordion ============================ */
+
+    .accordion {
+        height: 300px;
+    }
+
+    .accordion .container .row .accordion-wrapper .faq-content {
+        padding: 2%;
+    }
+
+    .accordion .container .row .accordion-wrapper .faq-content .question h3 {
+        font-size: 16px;
+    }
+
+    .accordion .container .row .accordion-wrapper .faq-content .question button {
+        padding: 10px !important;
+        font-size: 14px !important;
+    }
+
+    .accordion .container .row .accordion-wrapper .faq-content {
+        border-radius: 10px;
+    }
+    .end .container .row h6{
+        color: white;
+        font-size: 63px;
+        position: relative;
+        left: 20px;
+        text-align: center;
+    }
+    .end .container .row p{
+        color: white;
+        font-size: 16px;
+        width: 440px;
+        height: 24px;
+        text-align: center;
+    }
+    .end .container .row-2{
+        margin-top: 103px;
+        background-color: white;
+        width: 100%;
+        width: 1380px;
+        height: 292px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        right: 480px;
+        border-radius: 30px;
+        row-gap: 40px;
+    }
+    .end .container .row-2 .connections{
+        border: 2px solid black;
+        width: 456px;
+        height: 74px;
+        border-radius: 30px;
+        position: relative;
+        right: 10px;
+    }
+    .end .container .row-2 .connections ul li a{
+        padding: 12.5px 8.5px;
+        color: black;
+        /* background-color: black; */
+        border-radius: 30px;
+        border: 1px solid black;  
+        font-size: 16px; 
+    }
+}
+
+/* ======================== @media screen : 350px ========================= */
+@media screen and (max-width: 380px) {
+
+    body{
+        overflow-x: hidden !important;
+    }
+    
+    h1 {
+        font-size: 50px;
+    }
+
+    /* ========================= navbar ========================== */
+
+    .navbar {
+        margin: 0 !important;
+        position: relative;
+        height: 40px !important;
+        width: 100% !important;
+    }
+
+    .navbar .container {
+        width: 100% !important;
+        margin-top: 0 !important;
+        padding: 15px !important;
+    }
+
+    .navbar .container .nav-menu ul {
+        left: 60%;
+    }
+
+    .navbar .logo {
+        width: 18px !important;
+        height: 18px !important;
+    }
+
+    .navbar .container .nav-menu-1 form input {
+        padding: 8px 8px !important;
+        width: 100px;
+        height: 15px;
+    }
+
+    .navbar .container .nav-menu-1 a {
+        width: 45px;
+        height: 12px !important;
+        font-size: 8px;
+        letter-spacing: 0.5px;
+        color: black;
+        border-color: black;
+    }
+
+    .navbar .container .nav-menu-1 i {
+        width: 16px !important;
+        height: 16px !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: white !important;
+    }
+
+    .search-icon {
+        padding: 8px !important;
+        font-size: 10px !important;
+    }
+
+    .ico {
+        padding: 8px !important;
+        font-size: 10px !important;
+    }
+
+    /* ========================= banner ========================= */
+
+    .banner {
+        height: 220px;
+        width: 100%;
+    }
+
+    .banner .container {
+        margin: 0 !important;
+    }
+
+    .banner .container .row .banner-head {
+        left: 20%;
+        top: 0%;
+        font-size: 8px;
+    }
+
+    .banner .container .row .banner-text {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 0px !important;
+    }
+
+    .banner .container .row .banner-text h2 {
+        font-size: 50px !important;
+    }
+
+    .banner .container .row .banner-text .leaf {
+        top: 7% !important;
+        left: 48.6% !important;
+        width: 22%;
+        height: 40% !important;
+    }
+
+    .banner .container .row .desc {
+        width: 90%;
+        top: 45%;
+        left: 6%;
+        text-align: center;
+        font-size: 8px;
+    }
+
+    .banner .container .row .plant-count {
+        width: 32%;
+        height: 40%;
+        left: -5%;
+        top: 95%;
+        /* display: none; */
+    }
+    .banner .container .row .plant-count .plant-figure .head{
+        font-size: 10px;
+    }
+    .banner .container .row .plant-count .plant-figure .plant-desc{
+        font-size: 3px;
+    }
+    .arrow-down {
+        position: absolute;
+        bottom: 45%;
+    }
+
+    .arrow-down i {
+        font-size: 14px;
+    }
+
+    .banner .container .shop-plants {
+        width: 32.5%;
+        height: 17%;
+        top: 112.5%;
+        left: 75%;
+        border-radius: 8px;
+    }
+
+    .banner .container .shop-plants a {
+        font-size: 8px !important;
+    }
+
+    /* ===================== for people ====================== */
+
+    .for-people {
+        height: 240px !important;
+        padding: 20px 0 !important;
+    }
+
+    .for-people .container{
+        padding: 0;
+    }
+
+    .for-people .container .row {
+        height: 100%;
+        padding: 0 !important;
+    }
+
+    .for-people .container .row .heading {
+        width: 100%;
+        height: 20% !important;
+        padding: 0 !important;
+    }
+
+    .for-people .container .row .heading h2 {
+        font-size: 19px;
+        padding: 0 !important;
+    }
+
+    .for-people .container .row .heading p {
+        width: 100% !important;
+        font-size: 10px;
+    }
+
+    .for-people .container .row .video-content {
+        width: 100% !important;
+        height: 50% !important;
+        padding: 14px !important;
+    }
+    .for-people .container .row .video-content img{
+        width: 40%;
+        position: relative;
+        left: 90px;
+    }
+    .for-people .container .row .video-content video {
+        width: 100% !important;
+        height: 100% !important;
+        object-fit: cover !important;
+    }
+
+    .for-people .container .row .video-content i {
+        left: 50%;
+        padding: 10px;
+        border-width: 1px;
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+        font-size: 10px !important;
+    }
+
+    .for-people .container .row .people-desc {
+        width: 100%;
+        height: 25% !important;
+        margin: 0;
+        padding: 20px;
+    }
+
+    .for-people .container .row .people-desc p {
+        font-size: 14px !important;
+        text-align: center !important;
+    }
+
+    /* ========================= plant gallery ========================== */
+
+    .plant-gallery {
+        height: 650px !important;
+    }
+    .gallery-menu{
+        padding: 12px 0;
+    }
+    .plant-gallery .container #row-1 .see-all{
+        margin-top: -33px;
+    }
+    .plant-gallery .container #row-2 .plant-card-layout {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .plant-gallery .container #row-2 .plant-card-layout .plant-card {
+        width: 100% !important;
+        height: 30% !important;
+        background-size: 100% !important;
+    }
+
+    .plant-gallery .container #row-2 .plant-card-layout .plant-card button{
+        padding: 5px !important;
+        left: 94% !important;
+    }
+
+    .plant-gallery .container #row-2 .plant-card-layout #pet-friendly{
+        height: 35% !important;
+    }
+    .plant-gallery .container #row-2 .plant-card-layout #pet-friendly button{
+        margin-top: -20px !important;
+    }
+
+    .plant-gallery .container #row-2 .plant-card-layout .plant-card .button{
+        width: 40% !important;
+        display: flex;
+        justify-content: start;
+        align-items: end;
+        position: relative;
+    }
+
+    .plant-gallery .container #row-2 .plant-card-layout .plant-card .button button{
+        position: absolute;
+        left: 0% !important;
+    }
+
+    /* ====================== new plants ======================= */
+
+    .new-plants {
+        height: 440px;
+        padding: 20px 0;
+    }
+
+    .new-plants .container .row {
+        height: 100%;
+    }
+
+    .new-plants .container .row .heading {
+        height: 30% !important;
+        width: 100% !important;
+        padding: 10px 5px;
+    }
+
+    .new-plants .container .row .heading h2 {
+        font-size: 25px;
+    }
+
+    .new-plants .container .row .heading p{
+        font-size: 10px;
+    }
+
+    .new-plants .container .row .new-plants-part-2 {
+        height: 70% !important;
+        width: 100% !important;
+    }
+
+    .new-plants .container .row .new-plants-part-2 .new-plants-card-layout .swiper {
+        height: 100% !important;
+    }
+    .new-plants .container .row .new-plants-part-2 .new-plants-card-layout .swiper .swiper-wrapper {
+        height: 90% !important;
+    }
+
+    .new-plants .container .row .new-plants-part-2 .new-plants-card-layout .swiper .swiper-wrapper .swiper-slide {
+        height: 90% !important;
+    }
+
+    .new-plants .container .row .new-plants-part-2 .new-plants-card-layout .swiper .swiper-wrapper .swiper-slide .card-content h3{
+        font-size: 16px !important;
+    }
+
+    .new-plants .container .row .new-plants-part-2 .new-plants-card-layout .swiper .swiper-wrapper .swiper-slide .card-content p{
+        font-size: 12px !important;
+    }
+
+    .new-plants .container .row .new-plants-part-2 .new-plants-card-layout .swiper .swiper-wrapper .swiper-slide .card-content .price{
+        font-size: 14px !important;
+    }
+
+    .new-plants .container .row .new-plants-part-2 .new-plants-card-layout .swiper .swiper-wrapper .swiper-slide .card-content .button{
+        width: 10px !important;
+        height: 15px !important;
+        padding: 10px !important;
+    }
+
+    .swiper-pagination {
+        height: 5% !important;
+    }
+
+    /* ========================= indoor ========================== */
+
+    .indoor {
+        height: 700px;
+    }
+
+    .indoor .container .row {
+        width: 100% !important;
+    }
+
+    .indoor .container .row .heading {
+        height: 5% !important;
+        width: 100% !important;
+        padding: 10px !important;
+    }
+
+    .indoor .container .row .heading h2 {
+        font-size: 30px;
+        width: 100% !important;
+    }
+
+    .indoor .container .row .heading p {
+        width: 100% !important;
+        padding: 0 !important;
+    }
+    .indoor .container .row .indoor-part-2{
+        height: 95% !important;
+    }
+
+    .indoor .container .row .indoor-part-2 .indoor-collection-layout .indoor-card #card-name {
+        font-size: 20px;
+    }
+
+    .indoor .container .row .indoor-part-2 .indoor-collection-layout .indoor-card .button button {
+        font-size: 14px !important;
+        padding: 8px 10px !important;
+        top: 8% !important;
+        left: 80% !important;
+    }
+
+    .indoor .container .row .indoor-part-2 .indoor-collection-layout .indoor-card .card-content h3 {
+        font-size: 20px !important;
+    }
+
+    .indoor .container .row .indoor-part-2 .indoor-collection-layout .indoor-card .card-content {
+        background-color: rgb(255, 255, 255, 0.2);
+    }
+
+    .indoor .container .row .indoor-part-2 .indoor-collection-layout .indoor-card .card-content p {
+        font-size: 9.5px !important;
+    }
+
+     /* ======================== quality =========================*/
+
+     .quality {
+        height: 350px;
+    }
+
+    .quality .container .row .heading h2 {
+        font-size: 28px !important;
+    }
+
+    .quality .container .row .heading p{
+        width: 100% !important;
+        font-size: 10px;
+    }
+    .quality .container .row .quality-content{
+        width: 70%;
+    }
+    .quality .container .row .quality-content #content-image{
+        width: 100% !important;
+    }
+
+
+    /* =========================== accordion ============================ */
+
+    .accordion {
+        height: 250px;
+    }
+
+    .accordion .container .row .accordion-wrapper .faq-content {
+        padding: 2%;
+    }
+
+    .accordion .container .row .accordion-wrapper .faq-content .question h3 {
+        font-size: 16px;
+    }
+
+    .accordion .container .row .accordion-wrapper .faq-content .question button {
+        padding: 10px !important;
+        font-size: 14px !important;
+    }
+
+    .accordion .container .row .accordion-wrapper .faq-content {
+        border-radius: 10px;
+    }
+
+    /* ================end=========================== */
+
+    .end .container{
+        overflow-x: hidden;
+        padding: 10px;
+    }
+
+    .end .container .row h6{
+        color: white;
+        font-size: 53px;
+        position: relative;
+        left: 0;
+        text-align: center;
+    }
+    .end .container .row p{
+        color: white;
+        font-size: 12px;
+        width: 340px;
+        height: 24px;
+        text-align: center;
+    }
+    .end .container .row-2{
+        margin-top: 103px;
+        background-color: white;
+        width: 100%;
+        width: 1380px;
+        height: 292px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        right: 540px;
+        border-radius: 30px;
+        row-gap: 40px;
+    }
+    .end .container .row-2 .connections{
+        border: 2px solid black;
+        width: 326px;
+        height: 74px;
+        border-radius: 30px;
+        position: relative;
+        left: 1%;   
+    }
+    .rights{
+        position: relative;
+        left: 1%;
+    }
+    .end .container .row-2 .connections ul li a{
+        padding: 12.5px 8.5px;
+        color: black;
+        /* background-color: black; */
+        border-radius: 30px;
+        border: 1px solid black;  
+        font-size: 10px; 
+    }
+}
